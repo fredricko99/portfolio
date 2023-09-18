@@ -1,0 +1,78 @@
+.Personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers items */
+    align-items: center;
+    background-color: white;
+    max-width: 400px;
+    max-height: 700px;
+    border-radius: 10px;
+  }
+  
+  .all-socials{
+  
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    column-gap: 9px;
+
+    max-width: 300px;
+    max-height: 61px;
+      
+  }
+
+  .media-icons{
+    padding: 10px;
+    background-color: rgba(0, 119, 181, 0.2) ;
+  }
+  
+  .profile-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contacts{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: left;
+    align-content: stretch;
+    row-gap: 10px;
+
+    background-color: rgb(218, 151, 151);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .contact-content{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    column-gap: 8px;
+
+    border-bottom: 2px;
+    border-bottom: 1px solid #00000030;
+    padding-bottom: 5px;
+    }
+    
+.contact-subcontent{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+    
+  
